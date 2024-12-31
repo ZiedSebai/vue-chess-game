@@ -1,24 +1,20 @@
-# chess-game
+# Vue Chess Game
 
-## Project setup
-```
-npm install
-```
+## Description
+Vue Chess Game is a chess application built with Vue.js. It allows users to play chess with standard rules like checkmate detection and turn-based play. While the game is not yet fully functional, it provides a strong foundation for an interactive chess experience.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Features
+- **Move Highlighting:** Highlights possible moves for the selected piece.
+- **Checkmate Detection:** Detects checkmate and ends the game with a notification.
+- **Turn-Based Play:** Enforces alternate turns between white and black players.
+- **Dynamic Board Rendering:** Real-time updates to the board using Vue's reactivity.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Known Limitations
+- "En passant" capture is not implemented.
+- "Pawn promotion" functionality is missing.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## How to Run
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository-url>
+   cd vue-chess-game
