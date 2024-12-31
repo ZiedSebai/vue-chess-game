@@ -13,9 +13,3 @@ Vue Chess Game is a chess application built with Vue.js. It allows users to play
 ## Known Limitations
 - "En passant" capture is not implemented.
 - "Pawn promotion" functionality is missing.
-
-## How to Run
-1. **Clone the Repository:**
-   ```bash
-   git clone <repository-url>
-   cd vue-chess-game
